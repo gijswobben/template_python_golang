@@ -1,0 +1,13 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Go module as shared C library",
+            "type": "shell",
+            "command": "go build -buildmode=c-shared -o build/golib.so src/main.go",
+            "problemMatcher": []
+        }
+    ]
+}

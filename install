@@ -1,0 +1,2 @@
+go build -buildmode=c-shared -o build/golib.so src/main.go
+pip install .
